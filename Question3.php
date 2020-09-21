@@ -38,5 +38,35 @@ function check_destination($phone_number)
 
 ?>
 
-//Question 3 a
+//Question 3b
 
+
+
+
+function change_destination($phone_number)
+{
+
+   
+$Number = check_destination($phone_number);
+
+    foreach ($Number as $prefixNumber){
+       
+        if ($Number -> == 0)
+        {
+            $output = $results->fetch_row();
+
+        }
+        else if ($Number == 00)
+        {
+            $output = $results->fetch_row();
+
+        }
+        else 
+        {
+            print " Invalid destination";
+        }
+
+    }
+}
+return $output;
+?>
