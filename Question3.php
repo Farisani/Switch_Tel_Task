@@ -36,7 +36,7 @@ function check_destination($phone_number)
     return $output;
 }
 
-
+?>
 
 //Question 3 a
 
